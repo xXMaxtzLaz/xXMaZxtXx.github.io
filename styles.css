@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    list-style-type: none;
+    
+
+}
+
+.body{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+ 
+}
+
+.header{
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 85px;
+    padding: 5px 10%;
+}
+
+.header .logo{
+    cursor: pointer;
+}
+
+.header .logo img{
+    height: 70px;
+    width: auto;
+}
+
+.header .nav-links{
+    list-style: none;
+}
+
+.header .nav-links li{
+    display: inline-block;
+    padding: 0 20px;
+}
+
+.header .nav-links a{
+    font-size: 700;
+    color: black;
+    text-decoration: none;
+}
+
+.header .btn button{
+    font-weight: 700;
+    color: white;
+    padding: 9px 25px;
+    background: black;
+    border: solid;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    
+}
+
+.container{
+    border-radius: 50px;
+    text-align: center;
+    color: white;
+    background-image: url(./multimedia/img/drift.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 200px;
+    margin-bottom: 20px;
+    
+
+}
+
+.container .button button{
+    font-weight: 700;
+    position: center;
+    color: white;
+    padding: 9px 25px;
+    background: black;
+    border: solid;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    box-shadow: 30px;
+}
+
+.producto{
+    display: grid;
+    place-items: center;
+    margin-bottom: 20px;
+
+   
+
+}
+
+.producto .boton button{
+    font-weight: 700;
+    position: center;
+    color: white;
+    padding: 9px 25px;
+    border: solid;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    margin: 20px;
+    width: 900px;
+    height: 500px;
+    background: url(./multimedia/img/mclare.webp) no-repeat center center scroll;
+    background-size: 100% 100%;
+    box-shadow: 30px;
+    
+    
+
+}
+
+.acerca{
+    display: grid;
+   place-items: center;
+   margin-bottom: 20px;
+}
+.acerca .boton button{
+    font-weight: 700;
+    position: center;
+    color: white;
+    padding: 9px 25px;
+    border: solid;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    margin: 20px;
+    background: url(./multimedia/img/mclare.webp) no-repeat center center scroll;
+    background-size: 100% 100%;
+    
+}
+
+
+
+.contactos{
+    display: grid;
+    place-items: center;
+    margin-bottom: 20px;
+    box-shadow: 30px;
+}
+.contactos .boton button{
+    font-weight: 700;
+    position: center;
+    color: white;
+    padding: 9px 25px;
+    border: solid;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    margin: 20px;
+    background: url(./multimedia/img/mclare.webp) no-repeat center center scroll;
+    background-size: 100% 100%;
+}
+    
+
+
+
+
+
+
+.footer {
+    background-color: black;
+    padding: 20px 0;
+    text-align: center;
+    margin-top: auto;
+}
+
+.footer-container{
+    max-width: 1200px;
+    margin-top: auto;
+    
+}
+
+.footer-row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer-links{
+    width: 25%;
+    padding: 0 15px;
+}
+
+.footer-links h4{
+    font-size: 20px;
+    color: white;
+    margin-bottom: 25px;
+    font-weight: 500;
+    border-bottom: 2px solid black;
+    padding-bottom: 10px;
+    display: inline-block;
+ 
+}
+
+.footer-list{
+    
+    color: brown;
+    list-style: none;
+    text-decoration: none;
+}
+
+
+.footer ul li a {
+    text-decoration: none;
+}

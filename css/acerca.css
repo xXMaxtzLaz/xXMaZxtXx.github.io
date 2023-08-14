@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+
+}
+
+.body{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+
+
+}
+
+.header{
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 85px;
+    padding: 5px 10%;
+}
+
+.header .logo{
+    cursor: pointer;
+}
+
+.header .logo img{
+    height: 70px;
+    width: auto;
+}
+
+.header .nav-links{
+    list-style: none;
+}
+
+.header .nav-links li{
+    display: inline-block;
+    padding: 0 20px;
+}
+
+.header .nav-links a{
+    font-size: 700;
+    color: black;
+    text-decoration: none;
+}
+
+.header .btn button{
+    font-weight: 700;
+    color: white;
+    padding: 9px 25px;
+    background: black;
+    border: solid;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    
+}
+
+.article-container {
+    display: flex;
+    width: 60%;
+  }
+  
+  .article-img {
+    max-width: 15%;
+    margin-right: 15px;
+    filter: grayscale(100%);
+  }
+  
+  .h2-article {
+    padding: 25px 10px;
+    color: white;
+    background: black;
+  }
+  
+  .article-text p {
+    padding: 0 10px;
+  }
+  
+  .article-credits {
+    padding: 0 5px;
+    background: white;
+  }
+
+
+
+
+.footer {
+    background-color: black;
+    padding: 20px 0;
+    text-align: center;
+    margin-top: auto;
+}
+
+.footer-container{
+    max-width: 1200px;
+    margin-top: auto;
+    
+}
+
+.footer-row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer-links{
+    width: 25%;
+    padding: 0 15px;
+}
+
+.footer-links h4{
+    font-size: 20px;
+    color: white;
+    margin-bottom: 25px;
+    font-weight: 500;
+    border-bottom: 2px solid black;
+    padding-bottom: 10px;
+    display: inline-block;
+ 
+}
+
+.footer-list{
+    
+    color: brown;
+    list-style: none;
+    text-decoration: none;
+}
+
