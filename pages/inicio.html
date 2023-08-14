@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Inicio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/inicio.css">
 </head>
 <body>
@@ -23,14 +24,55 @@
         <a href="#" class="btn"><button>Carrito</button></a>
     </header>
 
-    <header class="header-container">
-        <div class="container">
-            <h1>LOREM</h1>
-            <P>Lorem, ipsum dolor sit amet.</P>
-            <a href="boton" class="button"><button>Explorar</button></a>
+    
+    <div id="carouselExampleIndicators" class="carousel slide">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+           aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
         </div>
-    </header>
-        
+        <div class="carousel-inner">
+          
+            <div class="carousel-item active d-item">
+                <img src="../multimedia/img/nsx1.jpg" class="d-block w-100  d-img" alt="slider 1">
+                <div class="carousel-caption top-0 mt-4">
+                    <p class="mt-5 fs-3 text-uppercase">Descubre </p>
+                    <h1 class="display-1 fw-bolder text-capitalize ">Wide Body's</h1>
+                    <button class="btn btn-primary px-4 py-2 fs-5 mt-5">Ver Mas</button>
+                </div>
+            </div>
+
+            <div class="carousel-item  d-item">
+                <img src="../multimedia/img/nsx3.jpg" class="d-block w-100  d-img" alt="slider 1">
+                <div class="carousel-caption top-0 mt-4">
+                    <p class="mt-5 fs-3 text-uppercase"></p>
+                    <h1 class="display-1 fw-bolder text-capitalize ">Tuning</h1>
+                    <button class="btn btn-primary px-4 py-2 fs-5 mt-5">Ver Mas</button>
+                </div>
+            </div>
+
+            <div class="carousel-item d-item">
+                <img src="../multimedia/img/ns2.jpg" class="d-block w-100  d-img" alt="slider 1">
+                <div class="carousel-caption top-0 mt-4">
+                    <p class="mt-5 fs-3 text-uppercase "></p>
+                    <h1 class="display-1 fw-bolder text-capitalize text-light ">Performance</h1>
+                    <button class="btn btn-primary px-4 py-2 fs-5 mt-5" >Ver Mas</button>
+                </div>
+            </div>
+
+                
+          
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
     
     <main class="main">
 
@@ -89,6 +131,8 @@
         </div>
         
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+
 </body>
 </html>
 

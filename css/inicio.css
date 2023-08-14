@@ -63,29 +63,17 @@
     
 }
 
-.container{
-    text-align: center;
-    color: white;
-    background-image: url(../multimedia/img/Negroo.jpg);
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding: 200px;
-    margin-bottom: 20px;
+.d-item{
+    height: 500px;
 
 }
 
-.container .button button{
-    font-weight: 700;
-    position: center;
-    color: white;
-    padding: 9px 25px;
-    background: black;
-    border: solid;
-    border-radius: 50px;
-    cursor: pointer;
-    transition: all 0.3s ease 0s;
+.d-item{
+    height: 100%;
+    object-fit: cover;
+
 }
+
 
 .producto{
     display: grid;
@@ -108,8 +96,8 @@
     margin: 20px;
     width: 900px;
     height: 500px;
-    background: url(../multimedia/img/mclare.webp) no-repeat center center scroll;
-    background-size: 100% 100%;
+    background: url(../multimedia/img/silvia.png) no-repeat center center scroll;
+    background-size: 1300px
     
     
 
@@ -130,8 +118,8 @@
     cursor: pointer;
     transition: all 0.3s ease 0s;
     margin: 20px;
-    background: url(../multimedia/img/mclare.webp) no-repeat center center scroll;
-    background-size: 100% 100%;
+    background: url(../multimedia/img/gtr2.jpg) no-repeat center center scroll;
+    background-size: 1300px;
 }
 
 
@@ -151,8 +139,8 @@
     cursor: pointer;
     transition: all 0.3s ease 0s;
     margin: 20px;
-    background: url(../multimedia/img/mclare.webp) no-repeat center center scroll;
-    background-size: 100% 100%;
+    background: url(../multimedia/img/toyota\ a1.jpg) no-repeat center center scroll;
+    background-size: 1300px;
 }
     
 
