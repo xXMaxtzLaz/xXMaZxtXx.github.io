@@ -24,80 +24,48 @@
     }
 }
 
+.card{
+    width: 75vw;
+    height: auto;
+    max-width: 1000px;
+    min-width: 320px;
+    margin: auto;
+    margin-top: 25px;
+    align-items: center;
 
+    
+    
+}
 
-
-.producto{
-    display: grid;
-    place-items: center;
-    margin-bottom: 20px;
-
+.card .fondo .btn{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-color: rgba(159, 220, 242, 0.685);
    
-
+    
 }
 
-.producto .boton button{
-    font-weight: 700;
-    position: center;
-    color: white;
-    padding: 9px 25px;
+.card .fondo .btn{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     border: solid;
     border-radius: 50px;
     cursor: pointer;
     transition: all 0.3s ease 0s;
-    margin: 20px;
-    width: 900px;
-    height: 500px;
-    background: url(./multimedia/img/mclare.webp) no-repeat center center scroll;
-    background-size: 100% 100%;
     box-shadow: 30px;
+    border-color: white;
     
-    
+  }
 
-}
-
-.acerca{
-    display: grid;
-   place-items: center;
-   margin-bottom: 20px;
-}
-.acerca .boton button{
-    font-weight: 700;
-    position: center;
+  .card .fondo .btn h1{
     color: white;
-    padding: 9px 25px;
-    border: solid;
-    border-radius: 50px;
-    cursor: pointer;
-    transition: all 0.3s ease 0s;
-    margin: 20px;
-    background: url(./multimedia/img/mclare.webp) no-repeat center center scroll;
-    background-size: 100% 100%;
-    
-}
+  }
 
 
 
-.contactos{
-    display: grid;
-    place-items: center;
-    margin-bottom: 20px;
-    box-shadow: 30px;
-}
-.contactos .boton button{
-    font-weight: 700;
-    position: center;
-    color: white;
-    padding: 9px 25px;
-    border: solid;
-    border-radius: 50px;
-    cursor: pointer;
-    transition: all 0.3s ease 0s;
-    margin: 20px;
-    background: url(./multimedia/img/mclare.webp) no-repeat center center scroll;
-    background-size: 100% 100%;
-}
-    
 
 
 footer{
