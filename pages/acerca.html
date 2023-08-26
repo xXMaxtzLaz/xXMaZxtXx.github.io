@@ -4,99 +4,96 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Acerca</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+
     <link rel="stylesheet" href="../css/acerca.css">
 </head>
 <body>
-    <header class="header"
-    >  
-        <div class="logo">
-           <a href="../pages/inicio.html"><img src="../multimedia/img/logo.jpg" alt="" srcset=""></a>
-        </div>
-
-        <nav>
-            <ul class="nav-links">
-                <li><a href="../pages/inicio.html">Inicio</a></li>
-                <li><a href="../pages/shop.html">Shop</a></li>
-                <li><a href="#">Acerca</a></li>
-            </ul>
-        </nav>
-        <a href="#" class="btn"><button>Carrito</button></a>
-    </header>
-
-    <section class="container">
-    
-        <article class="article-container">
-          <img class="article-img" src="../multimedia/img/negro1.jpg" alt="imagen de productos">
-          
-          <div class="article-text">
-            <h2 class="h2-article">Acerca</h2>
-            
-            <p>
-              <br>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum molestiae dolore itaque id libero quaerat dolores nesciunt consequuntur odio eligendi.
-              <br><br>
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facilis fugiat corrupti tempora voluptate quaerat qui!
-              <br><br>
-                 Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facilis, consequatur?
-              <br><br>
-            </p>
-
-          </div>
-    
-        </article>
-    
-      </section>
-
-
-
-    <footer class="footer">
-        <div class="footer-container">
-            <div class="footer-row">
-                <div class="footer-links">  
-                    <h4>Menu</h4>
-                    <ul class="footer-list">
-                        <li><a href="#">HOME</a></li>
-                        <li><a href="#">ACERCA</a></li>
-                        <li><a href="#">CONTACTO</a></li>
-                        <li><a href="#">PRODUCTOS</a></li>
-                    </ul>
-                </div>
-                <div class="footer-links">  
-                    <h4>Categorias</h4>
-                    <ul class="footer-list">
-                        <li><a href="#">Categoria 1</a></li>
-                        <li><a href="#">Categoria 2</a></li>
-                        <li><a href="#">Categoria 3</a></li>
-                        <li><a href="#">Categoria</a></li>
-                    </ul>
-                </div>
-                <div class="footer-links">  
-                    <h4>Ayuda</h4>
-                    <ul class="footer-list">
-                        <li><a href="#">Compras</a></li>
-                        <li><a href="#">Reembolso</a></li>
-                        <li><a href="#">Productos Comprados</a></li>
-                    </ul>
-                </div>
-                <div class="footer-links">  
-                    <h4>Redes Sociales</h4>
-                    <ul class="footer-list">
-                        <li><a href="#">Facebook</a></li>
-                        <li><a href="#">Instagram</a></li>
-                        <li><a href="#">Twitter</a></li>
-                    </ul>
-                </div>
+  <header class="header">
+    <nav class="navbar navbar-expand-lg  bg-body-tertiary fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand fs-4" href="#">DriftKing</a>
+          <!-- btn navbar -->
+          <button class="navbar-toggler shadow-none border-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <!-- side bar -->
+          <div class=" sidebar offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+            <!-- header side -->
+            <div class="offcanvas-header text-white  border-bottom">
+              <h5 class="offcanvas-title" id="offcanvasNavbarLabel">MENU</h5>
+              <button type="button" class="btn-close btn-close-white shadow-none " data-bs-dismiss="offcanvas" aria-label="Close"></button>
             </div>
-
+            <!-- body side -->
+            <div class="offcanvas-body d-flex flex-column flex-lg-row p-4 p-lg-0">
+              <ul class="navbar-nav justify-content-center aling-items-center fs-5 flex-grow-1 pe-3">
+                <li class="nav-item mx-2">
+                  <a class="nav-link active" aria-current="page" href="./inicio.html">Inicio</a>
+                </li>
+                <li class="nav-item mx-2">
+                  <a class="nav-link" href="../pages/shop.html">Shop</a>
+                </li>
+                <li class="nav-item mx-2">
+                    <a class="nav-link" href="../pages/acerca.html">Acerca</a>
+                  </li>
+                  
+              </ul>
+              <!-- login-sign up -->
+              <div class="d-flex  flex-column flex-lg-row  align-items-center gap-3">
+              
+                <a href="../pages/carrito.html" class="text-white text-decoration-none px-3 py-1  rounded-4 " style="background-color: black;">Carrito</a>
+              </div>
+              
+            </div>
+          </div>
         </div>
-        
-    </footer>
+      </nav>
+</header>
+
+
+    <main>
+      <div class="text-body">
+        <div>
+          <h1 class="titulo" style="text-align: center ;">Acerca de Nosostros</h1>
+        </div>
+        <div class="logo" style="text-align: center">
+          <strong>DriftKing</strong><br>
+          </div>
+
+        <div class="textos" style=" text-align: center;">
+          <p>DriftKing es una empresa dedicada a la exportacion de partes automotrices especializada en el tuning.</p> <br>
+          <p>Conocemos a los mas famosos y conocidos provedores, contando con las mejores piezas.</p><br>
+          <p>Contactanos en nuestras Redes Sociales</p>
+        </div>
+
+      </div>
+      
+    </main>
+
+    <footer>
+      <div class="footer-content">
+          <h3>Sobre Nosostros</h3>
+          <p>Consigue el mejor Style y Siguenos en nuestras Redes Sociales</p>
+          <ul class="socials">
+              <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+              <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+              <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+              <li><a href="#"><i class="fa fa-youtube"></i></a></li>
+          </ul>
+      </div>
+      <div class="footer-bottom">
+          <p><span>DriftKing</span></p>
+      </div>
+  </footer>
+
 </body>
 </html>
 
 
                         
 
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
 
 </body>
 </html>

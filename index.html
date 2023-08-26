@@ -5,94 +5,134 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Inicio</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
         <!-- barra de navegacion -->
-    <header class="header"
-    >  
-        <div class="logo">
-            <img src="./multimedia/img/logo.jpg" alt="" srcset="">
-        </div>
-
-        <nav>
-            <ul class="nav-links">
-                <li><a href="#">Inicio</a></li>
-                <li><a href="./pages/shop.html">Shop</a></li>
-                <li><a href="./pages/acerca.html">Acerca</a></li>
-            </ul>
-        </nav>
-        <a href="./pages/sesion.html" class="btn"><button>Iniciar Sesion</button></a>
+    <header class="header">
+        <nav class="navbar navbar-expand-lg  bg-body-tertiary fixed-top">
+            <div class="container-fluid">
+              <a class="navbar-brand fs-4" href="#">DriftKing</a>
+              <!-- btn navbar -->
+              <button class="navbar-toggler shadow-none border-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <!-- side bar -->
+              <div class=" sidebar offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                <!-- header side -->
+                <div class="offcanvas-header text-white  border-bottom">
+                  <h5 class="offcanvas-title" id="offcanvasNavbarLabel">MENU</h5>
+                  <button type="button" class="btn-close btn-close-white shadow-none " data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <!-- body side -->
+                <div class="offcanvas-body d-flex flex-column flex-lg-row p-4 p-lg-0">
+                  <ul class="navbar-nav justify-content-center aling-items-center fs-5 flex-grow-1 pe-3">
+                    <li class="nav-item mx-2">
+                      <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                    </li>
+                    <li class="nav-item mx-2">
+                      <a class="nav-link" href="./pages/shop.html">Shop</a>
+                    </li>
+                    <li class="nav-item mx-2">
+                        <a class="nav-link" href="./pages/acerca.html">Acerca</a>
+                      </li>
+                      
+                  </ul>
+                  <!-- login-sign up -->
+                  <div class="d-flex  flex-column flex-lg-row  align-items-center gap-3">
+                    <a href="./pages/inicio.html" class="text-black ">Iniciar sesion</a>
+                    <a href="./pages/sesion.html" class="text-white text-decoration-none px-3 py-1  rounded-4 " style="background-color: black;">Crear cuenta</a>
+                  </div>
+                  
+                </div>
+              </div>
+            </div>
+          </nav>
     </header>
 
-    <header class="header-container">
-        <div class="container">
-            <h1>LOREM</h1>
-            <P>Lorem, ipsum dolor sit amet.</P>
-            <a href="boton" class="button"><button>Explorar</button></a>
-            aa
+    <div id="carouselExampleIndicators" class="carousel slide">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+           aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
         </div>
-    </header>
-        
-    
-    <main class="main">
-
-        <div class="producto">
-            <a href="./pages/productos.html" class="boton"><button>Productos</button></a>
-
-        <div class="acerca">
-            <a href="./pages/acerca.html" class="boton"><button>Acerca</button></a>
-        </div>
-
-        <div class="contactos">
-            <a href="./pages/contactos.html"class="boton"><button>Contactos</button></a>
-        </div>
-
-    </main>
-
-    <footer class="footer">
-        <div class="footer-container">
-            <div class="footer-row">
-                <div class="footer-links">  
-                    <h4>Menu</h4>
-                    <ul class="footer-list">
-                        <li><a href="#">HOME</a></li>
-                        <li><a href="#">ACERCA</a></li>
-                        <li><a href="#">CONTACTO</a></li>
-                        <li><a href="#">PRODUCTOS</a></li>
-                    </ul>
-                </div>
-                <div class="footer-links">  
-                    <h4>Categorias</h4>
-                    <ul class="footer-list">
-                        <li><a href="#">Categoria 1</a></li>
-                        <li><a href="#">Categoria 2</a></li>
-                        <li><a href="#">Categoria 3</a></li>
-                        <li><a href="#">Categoria</a></li>
-                    </ul>
-                </div>
-                <div class="footer-links">  
-                    <h4>Ayuda</h4>
-                    <ul class="footer-list">
-                        <li><a href="#">Compras</a></li>
-                        <li><a href="#">Reembolso</a></li>
-                        <li><a href="#">Productos Comprados</a></li>
-                    </ul>
-                </div>
-                <div class="footer-links">  
-                    <h4>Redes Sociales</h4>
-                    <ul class="footer-list">
-                        <li><a href="#">Facebook</a></li>
-                        <li><a href="#">Instagram</a></li>
-                        <li><a href="#">Twitter</a></li>
-                    </ul>
+        <div class="carousel-inner">
+          
+            <div class="carousel-item active d-item">
+                <img src="./multimedia/img/nsx1.jpg" class="d-block w-100  d-img" alt="slider 1">
+                <div class="carousel-caption top-0 mt-4">
+                    <p class="mt-5 fs-3 text-uppercase">Descubre </p>
+                    <h1 class="display-1 fw-bolder text-capitalize ">Wide Body's</h1>
+                    <button class="btn btn-primary px-4 py-2 fs-5 mt-5">Ver Mas</button>
                 </div>
             </div>
 
+            <div class="carousel-item  d-item">
+                <img src="./multimedia/img/nsx3.jpg" class="d-block w-100  d-img" alt="slider 1">
+                <div class="carousel-caption top-0 mt-4">
+                    <p class="mt-5 fs-3 text-uppercase"></p>
+                    <h1 class="display-1 fw-bolder text-capitalize ">Tuning</h1>
+                    <button class="btn btn-primary px-4 py-2 fs-5 mt-5">Ver Mas</button>
+                </div>
+            </div>
+
+            <div class="carousel-item d-item">
+                <img src="./multimedia/img/ns2.jpg" class="d-block w-100  d-img" alt="slider 1">
+                <div class="carousel-caption top-0 mt-4">
+                    <p class="mt-5 fs-3 text-uppercase "></p>
+                    <h1 class="display-1 fw-bolder text-capitalize text-light ">Performance</h1>
+                    <button class="btn btn-primary px-4 py-2 fs-5 mt-5" >Ver Mas</button>
+                </div>
+            </div>
+
+                
+          
         </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    
         
+    
+    <main class="main ">
+
+        <div class="producto d-flex flex-column justify-content-center aling-items-center">
+            <a href="./pages/productos.html" class="boton d-flex flex-column justify-content-center aling-items-center"><button>Productos</button></a>
+
+        <div class="acerca d-flex flex-column justify-content-center aling-items-center">
+            <a href="./pages/acerca.html" class="boton d-flex flex-column justify-content-center aling-items-center"><button>Acerca</button></a>
+        </div>
+
+        <div class="contactos d-flex flex-column justify-content-center aling-items-center">
+            <a href="./pages/contactos.html"class="boton d-flex flex-column justify-content-center aling-items-center"><button>Contactos</button></a>
+        </div>
+
+    </main>
+    <footer>
+        <div class="footer-content">
+            <h3>Sobre Nosostros</h3>
+            <p>Consigue el mejor Style y Siguenos en nuestras Redes Sociales</p>
+            <ul class="socials">
+                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                <li><a href="#"><i class="fa fa-youtube"></i></a></li>
+            </ul>
+        </div>
+        <div class="footer-bottom">
+            <p><span>DriftKing</span></p>
+        </div>
     </footer>
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
 </body>
 </html>
