@@ -23,77 +23,9 @@
         backdrop-filter: blur(10px);
     }
 }
-.header{
-    background-color: white;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 85px;
-    padding: 5px 10%;
-}
 
-.header .logo{
-    cursor: pointer;
-}
 
-.header .logo img{
-    height: 70px;
-    width: auto;
-}
 
-.header .nav-links{
-    list-style: none;
-}
-
-.header .nav-links li{
-    display: inline-block;
-    padding: 0 20px;
-}
-
-.header .nav-links a{
-    font-size: 700;
-    color: black;
-    text-decoration: none;
-}
-
-.header .btn button{
-    font-weight: 700;
-    color: white;
-    padding: 9px 25px;
-    background: black;
-    border: solid;
-    border-radius: 50px;
-    cursor: pointer;
-    transition: all 0.3s ease 0s;
-    
-}
-
-.container{
-    border-radius: 50px;
-    text-align: center;
-    color: white;
-    background-image: url(./multimedia/img/drift.png);
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding: 200px;
-    margin-bottom: 20px;
-    
-
-}
-
-.container .button button{
-    font-weight: 700;
-    position: center;
-    color: white;
-    padding: 9px 25px;
-    background: black;
-    border: solid;
-    border-radius: 50px;
-    cursor: pointer;
-    transition: all 0.3s ease 0s;
-    box-shadow: 30px;
-}
 
 .producto{
     display: grid;
