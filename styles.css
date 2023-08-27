@@ -24,6 +24,10 @@
     }
 }
 
+.card:hover{
+    transform: scale(1.05);
+}
+   
 .card{
     width: 75vw;
     height: auto;
@@ -33,8 +37,6 @@
     margin-top: 25px;
     align-items: center;
 
-    
-    
 }
 
 .card .fondo .btn{
@@ -80,6 +82,7 @@ footer{
     font-family: "Open Sans";
     padding-top: 10px;
     color: white;
+    margin-top: 20px;
     
 }
 .footer-content{

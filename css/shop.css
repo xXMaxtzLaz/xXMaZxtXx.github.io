@@ -89,6 +89,10 @@ h1{
     margin: 20px auto;
 }
 
+.card:hover{
+    transform: scale(1.05);
+}
+
 .card{
     background-color: white;
     margin-bottom: 10px;
@@ -156,6 +160,7 @@ footer{
     font-family: "Open Sans";
     padding-top: 10px;
     color: white;
+    margin-top: 20px;
     
 }
 .footer-content{
